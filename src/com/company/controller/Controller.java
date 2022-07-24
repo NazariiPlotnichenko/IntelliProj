@@ -79,6 +79,7 @@ public class Controller {
             }
         }
         while (!keyMenu.equals("Q"));
+        input.close();
     }
 
 }
